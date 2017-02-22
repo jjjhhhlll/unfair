@@ -1,0 +1,26 @@
+clearEpisodes
+
+episode map01 {
+    name = "Enhanced Interrogation"
+}
+
+defaultMap {
+	cluster = 1
+	noJump
+	noCrouch
+	noFreelook
+	checkSwitchRange
+	resetHealth
+	resetInventory
+	usePlayerStartZ
+}
+
+map e1m1 "Stress Position" {
+	levelnum = 1
+	next = e1m2
+}
+
+map e1m2 "Enemy Combatants" {
+	levelnum = 2 
+	next = map02
+}
