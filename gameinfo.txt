@@ -1,1 +1,1 @@
-IWAD = "DOOM2.WAD"
+iwad = "DOOM2.WAD"

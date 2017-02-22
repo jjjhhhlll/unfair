@@ -1,7 +1,11 @@
 clearEpisodes
 
+episode e1m1 {
+	name = "Enhanced Interrogation"
+}
+
 episode map01 {
-    name = "Enhanced Interrogation"
+    	name = "Doom II"
 }
 
 defaultMap {
@@ -18,9 +22,125 @@ defaultMap {
 map e1m1 "Stress Position" {
 	levelnum = 1
 	next = e1m2
+	// horseshoe structure 
+	// berserk, rocket launcher, chaingun secret
+	// lost soul, demon, revenant boss
+    // soundpipe -> monster opens door to secret
+
+// CEIL1_2
+// CEIL1_3
+// CEIL3_1
+// CEIL3_3
+// CEIL5_1
+// CEIL5_2
+// F_SKY1
+// FLAT1_1
+// FLAT1_2
+// FLAT10
+// FLAT18
+// FLAT2
+// FLAT20
+// FLAT23
+// FLAT4
+// FLAT5
+// FLAT5_5
+// FLOOR0_1
+// FLOOR0_2
+// FLOOR1_1
+// FLOOR3_3
+// FLOOR4_1
+// FLOOR5_3
+// FLOOR5_4
+// FLOOR7_1
+// FWATER4
+// GRASS1
+// GRNLITE1
+// MFLR8_3
+// RROCK09
+// TLITE6_4
+
+// ASHWALL3
+// BIGDOOR1
+// BRNSMAL1
+// BRONZE1
+// BRONZE2
+// BROVINE2
+// BROWN1
+// BROWN96
+// BROWNGRN
+// BROWNHUG
+// CEMENT9
+// COMPSPAN
+// COMPWERD
+// DOORTRAK
+// EXITDOOR
+// EXITSIGN
+// LITE5
+// MIDBARS3
+// MODWALL2
+// MODWALL3
+// PIPE2
+// PIPE4
+// SPACEW3
+// SPACEW4
+// STEP2
+// STEP6
+// STONE7
+// SUPPORT2
+// SW1BRCOM
+// SW1BRNGN
+// SW1COMP
+// SW2BRCOM
+// TEKGREN1
+// TEKGREN2
+// TEKGREN3
+// TEKGREN4
+// TEKGREN5
+// TEKWALL4
+// TEKWALL6
 }
 
-map e1m2 "Enemy Combatants" {
+map e1m2 "Abdomen Strike" {
 	levelnum = 2 
-	next = map02
+	next = e1m3
+	// berserk, rocket launcher, shotgun, chaingun secret
+	// shotgun dude, demon, lost soul
+}
+
+map e1m3 "Rendition" {
+	levelnum = 3
+	next = e1m4
+	// teleport surprise based structure, enemies all teleport
+	// berserk, rocket launcher, chaingun
+	// demon, imp, shotgunner, chaingunner
+}
+
+map e1m4 "Black Site" {
+	levelnum = 4
+	next = e1m5
+	// berserk, rocket launcher, ssg
+}
+
+map e1m5 "Waterboard" {
+	levelnum = 5
+	next = e1m6
+	// berserk, ssg, chaingun, plasma
+}
+
+map e1m6 "Collateral Damage" {
+	levelnum = 6
+	next = e1m7
+	// rocket launcher, ssg, chaingun secret, plasma
+}
+
+map e1m7 "Protective Custody" {
+	levelnum = 7
+	next = e1m8
+	// chainsaw, chaingun, shotgun
+}
+
+map e1m8 "Shock and Awe" {
+	levelnum = 8
+	next = map01
+	// berserk, rocket launcher, chaingun, shotgun, plasma
 }
