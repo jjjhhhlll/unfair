@@ -10,6 +10,8 @@ episode map01 {
 
 defaultMap {
 	cluster = 1
+	sky1 = SKY1, 0
+	titlepatch = GRNLITE1
 	noJump
 	noCrouch
 	noFreelook
@@ -17,6 +19,8 @@ defaultMap {
 	resetHealth
 	resetInventory
 	usePlayerStartZ
+	// gzdoom
+	lightmode = 8
 }
 
 map e1m1 "Stress Position" {
@@ -25,7 +29,7 @@ map e1m1 "Stress Position" {
 	// horseshoe structure 
 	// berserk, rocket launcher, chaingun secret
 	// lost soul, demon, revenant boss
-    // soundpipe -> monster opens door to secret
+    	// soundpipe -> monster opens door to secret
 
 // CEIL1_2
 // CEIL1_3
