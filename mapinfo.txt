@@ -1,7 +1,7 @@
 clearEpisodes
 
 episode e1m1 {
-	name = "Enhanced Interrogation"
+	name = "Hell is War"
 }
 
 episode map01 {
@@ -11,7 +11,6 @@ episode map01 {
 defaultMap {
 	cluster = 1
 	sky1 = SKY1, 0
-	titlepatch = GRNLITE1
 	noJump
 	noCrouch
 	noFreelook
