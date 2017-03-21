@@ -28,7 +28,7 @@ map e1m1 "Stress Position" {
 	// horseshoe structure 
 	// berserk, rocket launcher, chaingun secret
 	// lost soul, demon, revenant boss
-    	// soundpipe -> monster opens door to secret
+   	// soundpipe -> monster opens door to secret
 
 // CEIL1_2
 // CEIL1_3
@@ -108,6 +108,59 @@ map e1m2 "Abdomen Strike" {
 	next = e1m3
 	// berserk, rocket launcher, shotgun, chaingun secret
 	// shotgun dude, demon, lost soul
+    // ledge-maze style
+    // red key unlocks a switch
+    // blue key crossover
+    // water/pipes down below
+    // main construction stone
+    // bigbrik1 house in middle of circle of stone
+
+    // CEIL5_1
+    // CEIL5_2
+    // CRATOP2
+    // F_SKY1
+    // FLAT1
+    // FLAT18
+    // FLAT2
+    // FLAT23
+    // FLAT5_4
+    // FLAT5_5
+    // FLOOR0_3
+    // FLOOR5_3
+    // FWATER1
+    // GATE3
+    // GRASS2
+
+    // BIGBRIK1
+    // BIGDOOR1
+    // BIGDOOR3
+    // BIGDOOR4
+    // COMPSTA1
+    // COMPSTA2
+    // COMPTALL
+    // DOORBLU
+    // DOORRED
+    // DOORTRAK
+    // EXITSIGN
+    // METAL2
+    // PIPEWAL1
+    // PIPEWAL2
+    // SHAWN2
+    // SPACEW2
+    // SPACEW3
+    // SPCDOOR2
+    // STARG1
+    // STARTAN3
+    // STEP1
+    // STEP2
+    // STEP5
+    // STEPLAD1
+    // STONE4
+    // STONE5
+    // STUCCO
+    // SUPPORT3
+    // SW1COMM
+    // SW1EXIT
 }
 
 map e1m3 "Rendition" {
