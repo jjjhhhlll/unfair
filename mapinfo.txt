@@ -20,11 +20,13 @@ defaultMap {
 	usePlayerStartZ
 	// gzdoom
 	lightmode = 8
+	intermusic = "music/eob2sint.mus"
 }
 
 map e1m1 "Stress Position" {
 	levelnum = 1
 	next = e1m2
+	music = "music/eob2s6.mus"
 	// horseshoe structure 
 	// berserk, rocket launcher, chaingun secret
 	// lost soul, demon, revenant boss
@@ -106,6 +108,7 @@ map e1m1 "Stress Position" {
 map e1m2 "Abdomen Strike" {
 	levelnum = 2 
 	next = e1m3
+	music = "music/eob2s1.mus"
 	// berserk, rocket launcher, shotgun, chaingun secret
 	// shotgun dude, demon, lost soul
     // ledge-maze style
