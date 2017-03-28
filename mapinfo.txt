@@ -23,7 +23,7 @@ defaultMap {
 	intermusic = "music/eob2sint.mus"
 }
 
-map e1m1 "Stress Position" {
+map e1m1 "Abdomen Strike" {
 	levelnum = 1
 	next = e1m2
 	music = "music/eob2s6.mus"
@@ -32,80 +32,80 @@ map e1m1 "Stress Position" {
 	// lost soul, demon, revenant boss
    	// soundpipe -> monster opens door to secret
 
-// CEIL1_2
-// CEIL1_3
-// CEIL3_1
-// CEIL3_3
-// CEIL5_1
-// CEIL5_2
-// F_SKY1
-// FLAT1_1
-// FLAT1_2
-// FLAT10
-// FLAT18
-// FLAT2
-// FLAT20
-// FLAT23
-// FLAT4
-// FLAT5
-// FLAT5_5
-// FLOOR0_1
-// FLOOR0_2
-// FLOOR1_1
-// FLOOR3_3
-// FLOOR4_1
-// FLOOR5_3
-// FLOOR5_4
-// FLOOR7_1
-// FWATER4
-// GRASS1
-// GRNLITE1
-// MFLR8_3
-// RROCK09
-// TLITE6_4
+    // CEIL1_2
+    // CEIL1_3
+    // CEIL3_1
+    // CEIL3_3
+    // CEIL5_1
+    // CEIL5_2
+    // F_SKY1
+    // FLAT1_1
+    // FLAT1_2
+    // FLAT10
+    // FLAT18
+    // FLAT2
+    // FLAT20
+    // FLAT23
+    // FLAT4
+    // FLAT5
+    // FLAT5_5
+    // FLOOR0_1
+    // FLOOR0_2
+    // FLOOR1_1
+    // FLOOR3_3
+    // FLOOR4_1
+    // FLOOR5_3
+    // FLOOR5_4
+    // FLOOR7_1
+    // FWATER4
+    // GRASS1
+    // GRNLITE1
+    // MFLR8_3
+    // RROCK09
+    // TLITE6_4
 
-// ASHWALL3
-// BIGDOOR1
-// BRNSMAL1
-// BRONZE1
-// BRONZE2
-// BROVINE2
-// BROWN1
-// BROWN96
-// BROWNGRN
-// BROWNHUG
-// CEMENT9
-// COMPSPAN
-// COMPWERD
-// DOORTRAK
-// EXITDOOR
-// EXITSIGN
-// LITE5
-// MIDBARS3
-// MODWALL2
-// MODWALL3
-// PIPE2
-// PIPE4
-// SPACEW3
-// SPACEW4
-// STEP2
-// STEP6
-// STONE7
-// SUPPORT2
-// SW1BRCOM
-// SW1BRNGN
-// SW1COMP
-// SW2BRCOM
-// TEKGREN1
-// TEKGREN2
-// TEKGREN3
-// TEKGREN4
-// TEKGREN5
-// TEKWALL4
-// TEKWALL6
+    // ASHWALL3
+    // BIGDOOR1
+    // BRNSMAL1
+    // BRONZE1
+    // BRONZE2
+    // BROVINE2
+    // BROWN1
+    // BROWN96
+    // BROWNGRN
+    // BROWNHUG
+    // CEMENT9
+    // COMPSPAN
+    // COMPWERD
+    // DOORTRAK
+    // EXITDOOR
+    // EXITSIGN
+    // LITE5
+    // MIDBARS3
+    // MODWALL2
+    // MODWALL3
+    // PIPE2
+    // PIPE4
+    // SPACEW3
+    // SPACEW4
+    // STEP2
+    // STEP6
+    // STONE7
+    // SUPPORT2
+    // SW1BRCOM
+    // SW1BRNGN
+    // SW1COMP
+    // SW2BRCOM
+    // TEKGREN1
+    // TEKGREN2
+    // TEKGREN3
+    // TEKGREN4
+    // TEKGREN5
+    // TEKWALL4
+    // TEKWALL6
 }
 
-map e1m2 "Abdomen Strike" {
+map e1m2 "Waterboard" {
 	levelnum = 2 
 	next = e1m3
 	music = "music/eob2s1.mus"
@@ -166,30 +166,222 @@ map e1m2 "Abdomen Strike" {
     // SW1EXIT
 }
 
-map e1m3 "Rendition" {
+map e1m3 "Black Site" {
 	levelnum = 3
 	next = e1m4
 	// teleport surprise based structure, enemies all teleport
 	// berserk, rocket launcher, chaingun
 	// demon, imp, shotgunner, chaingunner
+
+    // CEIL5_1
+    // CEIL5_2
+    // CRATOP2
+    // DEM1_5
+    // F_SKY1
+    // FLAT1
+    // FLAT19
+    // FLOOR7_1
+    // FWATER1
+    // GATE2
+    // GATE3
+    // GRASS2
+    // MFLR8_2
+
+    // BRICK4
+    // BRICK5
+    // BROWN144
+    // BROWN96
+    // DOOR3
+    // DOORBLU
+    // DOORRED
+    // DOORTRAK
+    // EXITSIGN
+    // METAL
+    // METAL2
+    // METAL3
+    // METAL5
+    // METAL7
+    // SHAWN2
+    // STEP2
+    // STONE4
+    // STONE6
+    // SUPPORT3
+    // SW1BROWN
+    // SW1COMM
+    // SW1MET2
+    // TEKBRON1
+    // TEKBRON2
 }
 
-map e1m4 "Black Site" {
+map e1m4 "Rendition" {
 	levelnum = 4
 	next = e1m5
 	// berserk, rocket launcher, ssg
+
+    // CEIL5_1
+    // CEIL5_2
+    // CRATOP1
+    // CRATOP2
+    // FLAT1
+    // FLAT18
+    // FLAT23
+    // FLAT5_4
+    // FLAT5_5
+    // FLOOR7_2
+    // GATE3
+    // GRNLITE1
+    // RROCK14
+    // RROCK16
+    // SLIME07
+    // SLIME15
+    // SLIME16
+
+    // CRATE1
+    // CRATE2
+    // CRATE3
+    // CRATINY
+    // CRATWIDE
+    // DOOR3
+    // DOORBLU
+    // DOORRED
+    // DOORTRAK
+    // DOORYEL
+    // EXITSIGN
+    // LITE3
+    // LITE5
+    // LITEBLU1
+    // LITEBLU4
+    // MIDSPACE
+    // SHAWN2
+    // SPACEW3
+    // SPCDOOR3
+    // STEP4
+    // STEP5
+    // STONE
+    // SUPPORT2
+    // SUPPORT3
+    // SW1COMP
+    // SW1TEK
+    // TEKGREN2
+    // TEKGREN3
+    // TEKLITE
+    // TEKLITE2
+    // TEKWALL1
 }
 
-map e1m5 "Waterboard" {
+map e1m5 "Stress Position" {
 	levelnum = 5
 	next = e1m6
 	// berserk, ssg, chaingun, plasma
+
+    // CEIL3_5
+    // CEIL5_1
+    // CEIL5_2
+    // CRATOP2
+    // F_SKY1
+    // FLAT1
+    // FLAT1_1
+    // FLAT1_2
+    // FLAT10
+    // FLAT23
+    // FLOOR5_1
+    // FLOOR7_1
+    // FWATER1
+    // GATE3
+    // RROCK16
+
+    // ASHWALL3
+    // BIGBRIK1
+    // BIGBRIK2
+    // COMPSPAN
+    // DOORBLU
+    // DOORRED
+    // DOORTRAK
+    // DOORYEL
+    // EXITSIGN
+    // METAL2
+    // MIDBARS1
+    // MIDBARS3
+    // MODWALL2
+    // STEP1
+    // STONE4
+    // SUPPORT3
+    // SW1BLUE
+    // SW1EXIT
+    // SW2BRIK
+    // TEKBRON1
+    // TEKBRON2
+    // WOODMET1
 }
 
 map e1m6 "Collateral Damage" {
 	levelnum = 6
 	next = e1m7
 	// rocket launcher, ssg, chaingun secret, plasma
+
+    // CEIL1_2
+    // CEIL5_1
+    // CEIL5_2
+    // CRATOP2
+    // F_SKY1
+    // FLAT1
+    // FLAT23
+    // FLAT5_4
+    // FLAT5_5
+    // FLOOR7_1
+    // GATE3
+    // GRASS1
+    // LAVA3
+    // NUKAGE2
+    // RROCK09
+    // SLIME14
+    // SLIME15
+
+    // ASHWALL2
+    // BIGDOOR2
+    // BIGDOOR3
+    // BRNPOIS
+    // BRONZE1
+    // BRONZE2
+    // BRONZE3
+    // BROWN1
+    // BROWN96
+    // BROWNGRN
+    // BROWNHUG
+    // COMPSPAN
+    // DOOR3
+    // DOORBLU
+    // DOORRED
+    // DOORTRAK
+    // DOORYEL
+    // EXITSIGN
+    // GRAY4
+    // GSTONE1
+    // METAL
+    // METAL1
+    // METAL2
+    // METAL3
+    // METAL7
+    // MIDBARS3
+    // MIDGRATE
+    // MODWALL1
+    // NUKEDGE1
+    // NUKEPOIS
+    // SHAWN2
+    // SPCDOOR1
+    // SPCDOOR2
+    // STEP1
+    // STEP4
+    // STEP5
+    // STEP6
+    // SUPPORT2
+    // SUPPORT3
+    // SW1GARG
+    // SW1MET2
+    // SW1SATYR
+    // SW2MET2
+    // TEKLITE
+    // ZIMMER5
 }
 
 map e1m7 "Protective Custody" {
