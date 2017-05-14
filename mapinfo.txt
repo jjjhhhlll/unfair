@@ -213,10 +213,11 @@ map e1m3 "Black Site" {
     // TEKBRON2
 }
 
-map e1m4 "Rendition" {
+map e1m4 "Stress Position" {
 	levelnum = 4
 	next = e1m5
 	// berserk, rocket launcher, ssg
+    // close structure, little ammo, with pain elementals
 
     // CEIL5_1
     // CEIL5_2
@@ -269,7 +270,7 @@ map e1m4 "Rendition" {
     // TEKWALL1
 }
 
-map e1m5 "Stress Position" {
+map e1m5 "Rendition" {
 	levelnum = 5
 	next = e1m6
 	// berserk, ssg, chaingun, plasma
