@@ -1,0 +1,27 @@
+// TODO: make a library?
+
+script "tele_move" (int monster, int location) {
+	Thing_Activate(monster);
+    until(Thing_Move(monster, location, 0)) {
+        Delay(10);
+    }
+}
+
+function void bulk_tele_move(int n, int monster, int location) {
+   for (int i=0; i < n; i++) {
+        ACS_NamedExecuteAlways("tele_move", 0, monster+i, location+i);
+    }
+}
+
+script "quiet_move" (int monster, int location) {
+	Thing_Activate(monster);
+    until(Thing_Move(monster, location, 1)) {
+        Delay(10);
+    }
+}
+
+function void bulk_quiet_move(int n, int monster, int location) {
+    for (int i=0; i < n; i++) {
+        ACS_NamedExecuteAlways("quiet_move", 0, monster+i, location+i);
+    }
+}

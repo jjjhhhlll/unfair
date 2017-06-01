@@ -27,7 +27,7 @@ map e1m1 "Abdomen Strike" {
 	levelnum = 1
 	next = e1m2
 	music = "music/eob2s6.mus"
-	// horseshoe structure 
+	// horseshoe structure
 	// berserk, rocket launcher, chaingun secret
 	// lost soul, demon, revenant boss
    	// soundpipe -> monster opens door to secret
@@ -106,7 +106,7 @@ map e1m1 "Abdomen Strike" {
 }
 
 map e1m2 "Waterboard" {
-	levelnum = 2 
+	levelnum = 2
 	next = e1m3
 	music = "music/eob2s1.mus"
 	// berserk, rocket launcher, shotgun, chaingun secret
