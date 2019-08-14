@@ -274,6 +274,7 @@ map e1m5 "Rendition" {
 	levelnum = 5
 	next = e1m6
 	// berserk, ssg, chaingun, plasma
+	// start in a hole and move outward to larger spaces
 
     // CEIL3_5
     // CEIL5_1
@@ -319,24 +320,7 @@ map e1m6 "Collateral Damage" {
 	levelnum = 6
 	next = e1m7
 	// rocket launcher, ssg, chaingun secret, plasma
-
-    // CEIL1_2
-    // CEIL5_1
-    // CEIL5_2
-    // CRATOP2
-    // F_SKY1
-    // FLAT1
-    // FLAT23
-    // FLAT5_4
-    // FLAT5_5
-    // FLOOR7_1
-    // GATE3
-    // GRASS1
-    // LAVA3
-    // NUKAGE2
-    // RROCK09
-    // SLIME14
-    // SLIME15
+	// barrels!
 
     // ASHWALL2
     // BIGDOOR2
@@ -349,15 +333,28 @@ map e1m6 "Collateral Damage" {
     // BROWN96
     // BROWNGRN
     // BROWNHUG
+    // CEIL1_2
+    // CEIL5_1
+    // CEIL5_2
     // COMPSPAN
+    // CRATOP2
     // DOOR3
     // DOORBLU
     // DOORRED
     // DOORTRAK
     // DOORYEL
     // EXITSIGN
+    // FLAT1
+    // FLAT23
+    // FLAT5_4
+    // FLAT5_5
+    // FLOOR7_1
+    // F_SKY1
+    // GATE3
+    // GRASS1
     // GRAY4
     // GSTONE1
+    // LAVA3
     // METAL
     // METAL1
     // METAL2
@@ -366,9 +363,13 @@ map e1m6 "Collateral Damage" {
     // MIDBARS3
     // MIDGRATE
     // MODWALL1
+    // NUKAGE2
     // NUKEDGE1
     // NUKEPOIS
+    // RROCK09
     // SHAWN2
+    // SLIME14
+    // SLIME15
     // SPCDOOR1
     // SPCDOOR2
     // STEP1
@@ -389,6 +390,25 @@ map e1m7 "Protective Custody" {
 	levelnum = 7
 	next = e1m8
 	// chainsaw, chaingun, shotgun
+
+	// BRONZE1
+	// BRONZE3
+	// BROWN1
+	// CEIL5_1
+	// DOORTRAK
+	// EXITSIGN
+	// F_SKY1
+	// FLAT5_5
+	// METAL2
+	// RROCK09
+	// RROCK19	
+	// RROCK20
+	// SLIME15
+	// STEP1
+	// SW1DIRT
+	// SW1GARG
+	// SW1SATYR
+	// SW1SKIN
 }
 
 map e1m8 "Shock and Awe" {
