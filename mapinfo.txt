@@ -169,7 +169,7 @@ map e1m2 "Waterboard" {
 map e1m3 "Black Site" {
 	levelnum = 3
 	next = e1m4
-	// teleport surprise based structure, enemies all teleport
+	// darkness based design around light amp goggles
 	// berserk, rocket launcher, chaingun
 	// demon, imp, shotgunner, chaingunner
 
@@ -274,7 +274,7 @@ map e1m5 "Rendition" {
 	levelnum = 5
 	next = e1m6
 	// berserk, ssg, chaingun, plasma
-	// start in a hole and move outward to larger spaces
+	// teleport surprise based structure, enemies all teleport
 
     // CEIL3_5
     // CEIL5_1
@@ -319,7 +319,8 @@ map e1m5 "Rendition" {
 map e1m6 "Collateral Damage" {
 	levelnum = 6
 	next = e1m7
-	// rocket launcher, ssg, chaingun secret, plasma
+	// start in a hole and move outward to larger spaces
+	// chaingun, rocket launcher, ?, plasma
 	// barrels!
 
     // ASHWALL2
@@ -390,6 +391,7 @@ map e1m7 "Protective Custody" {
 	levelnum = 7
 	next = e1m8
 	// chainsaw, chaingun, shotgun
+	// cyber(s) and spider(s)
 
 	// BRONZE1
 	// BRONZE3
