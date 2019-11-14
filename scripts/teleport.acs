@@ -14,6 +14,11 @@ function void bulk_tele_move(int n, int monster, int location) {
 }
 
 script "quiet_move" (int monster, int location) {
+	// don't move corpses
+	if (ThingCount(0, monster)== 0) {
+		terminate;
+	}
+	
 	Thing_Activate(monster);
     until(Thing_Move(monster, location, 1)) {
         Delay(10);
