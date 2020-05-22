@@ -110,7 +110,8 @@ map e1m2 "Waterboard" {
 	next = e1m3
 	music = "music/eob2s1.mus"
 	// berserk, rocket launcher, shotgun, chaingun secret
-	// shotgun dude, demon, lost soul
+	// imp, demon, rev, lost soul
+    // first cacodemons
     // ledge-maze style
     // red key unlocks a switch
     // blue key crossover
@@ -170,8 +171,9 @@ map e1m3 "Black Site" {
 	levelnum = 3
 	next = e1m4
 	// darkness based design around light amp goggles
-	// berserk, rocket launcher, chaingun
-	// demon, imp, shotgunner, chaingunner
+	// berserk, chaingun, rocket launcher
+	// demon, imp, rev, cacodemon
+    // first anacrotron
 
     // CEIL5_1
     // CEIL5_2
@@ -218,6 +220,7 @@ map e1m4 "Stress Position" {
 	next = e1m5
 	// berserk, rocket launcher, ssg
     // close structure, little ammo, with pain elementals
+    // first archvile
 
     // CEIL5_1
     // CEIL5_2
@@ -320,7 +323,8 @@ map e1m6 "Collateral Damage" {
 	levelnum = 6
 	next = e1m7
 	// start in a hole and move outward to larger spaces
-	// chaingun, rocket launcher, ?, plasma
+	// chaingun, rocket launcher, ssg, plasma
+    // first mancs, cacos, imps, pain elementals
 	// barrels!
 
     // ASHWALL2
