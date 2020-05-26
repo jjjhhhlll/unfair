@@ -189,8 +189,6 @@ map e1m3 "Black Site" {
     // GRASS2
     // MFLR8_2
 
-    // BRICK4
-    // BRICK5
     // BROWN144
     // BROWN96
     // DOOR3
@@ -205,8 +203,6 @@ map e1m3 "Black Site" {
     // METAL7
     // SHAWN2
     // STEP2
-    // STONE4
-    // STONE6
     // SUPPORT3
     // SW1BROWN
     // SW1COMM
