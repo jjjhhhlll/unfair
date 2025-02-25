@@ -318,6 +318,7 @@ map e1m5 "Rendition" {
 map e1m6 "Collateral Damage" {
 	levelnum = 6
 	next = e1m7
+	music = "music/stuck-in-the-nukage.mid"
 	// start in a hole and move outward to larger spaces
 	// chaingun, rocket launcher, ssg, plasma
     // first mancs, cacos, imps, pain elementals
