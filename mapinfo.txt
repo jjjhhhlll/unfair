@@ -108,7 +108,8 @@ map e1m1 "Abdomen Strike" {
 map e1m2 "Waterboard" {
 	levelnum = 2
 	next = e1m3
-	music = "music/eob2s1.mus"
+	//music = "music/eob2s1.mus"
+    music = "music/mainline.mid"
 	// berserk, rocket launcher, shotgun, chaingun secret
 	// imp, demon, rev, lost soul
     // first cacodemons
@@ -170,6 +171,8 @@ map e1m2 "Waterboard" {
 map e1m3 "Black Site" {
 	levelnum = 3
 	next = e1m4
+    music = "music/suspicious-key.mid"
+
 	// darkness based design around light amp goggles
 	// berserk, chaingun, rocket launcher
 	// demon, imp, rev, cacodemon
