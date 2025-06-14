@@ -217,6 +217,7 @@ map e1m3 "Black Site" {
 map e1m4 "Stress Position" {
 	levelnum = 4
 	next = e1m5
+    music = "music/empty-shell.mid"
 	// berserk, rocket launcher, ssg
     // close structure, little ammo, with pain elementals
     // first archvile
