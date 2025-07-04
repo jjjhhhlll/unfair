@@ -26,7 +26,8 @@ defaultMap {
 map e1m1 "Abdomen Strike" {
 	levelnum = 1
 	next = e1m2
-	music = "music/eob2s6.mus"
+	//music = "music/eob2s6.mus"
+	music = "music/berzerk-buzz.mid"
 	// horseshoe structure
 	// berserk, rocket launcher, chaingun secret
 	// lost soul, demon, revenant boss
