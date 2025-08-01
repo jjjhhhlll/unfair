@@ -20,7 +20,8 @@ defaultMap {
 	usePlayerStartZ
 	// gzdoom
 	lightmode = 8
-	intermusic = "music/eob2sint.mus"
+	//intermusic = "music/eob2sint.mus"
+	intermusic = "music/dont-call.mid"
 }
 
 map e1m1 "Abdomen Strike" {
@@ -277,6 +278,7 @@ map e1m4 "Stress Position" {
 map e1m5 "Rendition" {
 	levelnum = 5
 	next = e1m6
+    music = "music/sleet.mid"
 	// berserk, ssg, chaingun, plasma
 	// teleport surprise based structure, enemies all teleport
 
