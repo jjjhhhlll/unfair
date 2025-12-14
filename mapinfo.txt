@@ -20,14 +20,12 @@ defaultMap {
 	usePlayerStartZ
 	// gzdoom
 	lightmode = 8
-	//intermusic = "music/eob2sint.mus"
 	intermusic = "music/dont-call.mid"
 }
 
 map e1m1 "Abdomen Strike" {
 	levelnum = 1
 	next = e1m2
-	//music = "music/eob2s6.mus"
 	music = "music/berzerk-buzz.mid"
 	// horseshoe structure
 	// berserk, rocket launcher, chaingun secret
@@ -110,7 +108,6 @@ map e1m1 "Abdomen Strike" {
 map e1m2 "Waterboard" {
 	levelnum = 2
 	next = e1m3
-	//music = "music/eob2s1.mus"
     music = "music/mainline.mid"
 	// berserk, rocket launcher, shotgun, chaingun secret
 	// imp, demon, rev, lost soul
@@ -325,6 +322,7 @@ map e1m5 "Rendition" {
 map e1m6 "Collateral Damage" {
 	levelnum = 6
 	next = e1m7
+    secretnext = e1m9
 	music = "music/stuck-in-the-nukage.mid"
 	// start in a hole and move outward to larger spaces
 	// chaingun, rocket launcher, ssg, plasma
@@ -425,4 +423,10 @@ map e1m8 "Shock and Awe" {
 	levelnum = 8
 	next = map01
 	// berserk, rocket launcher, chaingun, shotgun, plasma
+}
+
+map e1m9 "Scanners" {
+    levelnum = 9
+    next = e1m7
+    // monsters only hitscanners, spider mastermind boss
 }
