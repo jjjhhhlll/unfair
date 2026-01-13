@@ -14,4 +14,4 @@ e1m6:
 	../uzdoom -iwad doom2.wad -file . -nomonsters +map e1m6 -skill 4 -nomusic
 
 monsters: 
-	../uzdoom -iwad doom2.wad -file .  +map e1m6 -skill 4 -nomusic
+	../uzdoom -iwad doom2.wad -file . -nomusic #+map e1m6 -skill 4 
