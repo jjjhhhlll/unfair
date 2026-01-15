@@ -1,36 +1,37 @@
 clearEpisodes
 
 episode e1m1 {
-	name = "Hell is War"
+    name = "Hell is War"
 }
 
 episode map01 {
-    	name = "Doom II"
+    name = "Doom II"
 }
 
 defaultMap {
-	cluster = 1
-	sky1 = SKY1, 0
-	noJump
-	noCrouch
-	noFreelook
-	checkSwitchRange
-	resetHealth
-	resetInventory
-	usePlayerStartZ
-	// gzdoom
-	lightmode = 8
-	intermusic = "music/dont-call.mid"
+    cluster = 1
+    sky1 = SKY1, 0
+    noJump
+    noCrouch
+    noFreelook
+    checkSwitchRange
+    resetHealth
+    resetInventory
+    usePlayerStartZ
+    // gzdoom
+    lightmode = 8
+    intermusic = "music/dont-call.mid"
 }
 
 map e1m1 "Abdomen Strike" {
-	levelnum = 1
-	next = e1m2
-	music = "music/berzerk-buzz.mid"
-	// horseshoe structure
-	// berserk, rocket launcher, chaingun secret
-	// lost soul, demon, revenant boss
-   	// soundpipe -> monster opens door to secret
+    levelnum = 1
+    next = e1m2
+    music = "music/berzerk-buzz.mid"
+    par = 120
+    // horseshoe structure
+    // berserk, rocket launcher, chaingun secret
+    // lost soul, demon, revenant boss
+    // soundpipe -> monster opens door to secret
 
     // CEIL1_2
     // CEIL1_3
@@ -106,11 +107,11 @@ map e1m1 "Abdomen Strike" {
 }
 
 map e1m2 "Waterboard" {
-	levelnum = 2
-	next = e1m3
+    levelnum = 2
+    next = e1m3
     music = "music/mainline.mid"
-	// berserk, rocket launcher, shotgun, chaingun secret
-	// imp, demon, rev, lost soul
+    // berserk, rocket launcher, shotgun, chaingun secret
+    // imp, demon, rev, lost soul
     // first cacodemons
     // ledge-maze style
     // red key unlocks a switch
@@ -168,13 +169,13 @@ map e1m2 "Waterboard" {
 }
 
 map e1m3 "Black Site" {
-	levelnum = 3
-	next = e1m4
+    levelnum = 3
+    next = e1m4
     music = "music/suspicious-key.mid"
 
-	// darkness based design around light amp goggles
-	// berserk, chaingun, rocket launcher
-	// demon, imp, rev, cacodemon
+    // darkness based design around light amp goggles
+    // berserk, chaingun, rocket launcher
+    // demon, imp, rev, cacodemon
     // first anacrotron
 
     // CEIL5_1
@@ -214,10 +215,10 @@ map e1m3 "Black Site" {
 }
 
 map e1m4 "Stress Position" {
-	levelnum = 4
-	next = e1m5
+    levelnum = 4
+    next = e1m5
     music = "music/empty-shell.mid"
-	// berserk, rocket launcher, ssg
+    // berserk, rocket launcher, ssg
     // close structure, little ammo, with pain elementals
     // first archvile
 
@@ -273,11 +274,11 @@ map e1m4 "Stress Position" {
 }
 
 map e1m5 "Rendition" {
-	levelnum = 5
-	next = e1m6
+    levelnum = 5
+    next = e1m6
     music = "music/sleet.mid"
-	// berserk, ssg, chaingun, plasma
-	// teleport surprise based structure, enemies all teleport
+    // berserk, ssg, chaingun, plasma
+    // teleport surprise based structure, enemies all teleport
 
     // CEIL3_5
     // CEIL5_1
@@ -320,14 +321,14 @@ map e1m5 "Rendition" {
 }
 
 map e1m6 "Collateral Damage" {
-	levelnum = 6
-	next = e1m7
+    levelnum = 6
+    next = e1m7
     secretnext = e1m9
-	music = "music/stuck-in-the-nukage.mid"
-	// start in a hole and move outward to larger spaces
-	// chaingun, rocket launcher, ssg, plasma
+    music = "music/stuck-in-the-nukage.mid"
+    // start in a hole and move outward to larger spaces
+    // chaingun, rocket launcher, ssg, plasma
     // first mancs, cacos, imps, pain elementals
-	// barrels!
+    // barrels!
 
     // ASHWALL2
     // BIGDOOR2
@@ -394,35 +395,35 @@ map e1m6 "Collateral Damage" {
 }
 
 map e1m7 "Protective Custody" {
-	levelnum = 7
-	next = e1m8
-	// chainsaw, chaingun, shotgun
-	// cyber(s) and spider(s)
+    levelnum = 7
+    next = e1m8
+    // chainsaw, chaingun, shotgun
+    // cyber(s) and spider(s)
 
-	// BRONZE1
-	// BRONZE3
-	// BROWN1
-	// CEIL5_1
-	// DOORTRAK
-	// EXITSIGN
-	// F_SKY1
-	// FLAT5_5
-	// METAL2
-	// RROCK09
-	// RROCK19	
-	// RROCK20
-	// SLIME15
-	// STEP1
-	// SW1DIRT
-	// SW1GARG
-	// SW1SATYR
-	// SW1SKIN
+    // BRONZE1
+    // BRONZE3
+    // BROWN1
+    // CEIL5_1
+    // DOORTRAK
+    // EXITSIGN
+    // F_SKY1
+    // FLAT5_5
+    // METAL2
+    // RROCK09
+    // RROCK19	
+    // RROCK20
+    // SLIME15
+    // STEP1
+    // SW1DIRT
+    // SW1GARG
+    // SW1SATYR
+    // SW1SKIN
 }
 
 map e1m8 "Shock and Awe" {
-	levelnum = 8
-	next = map01
-	// berserk, rocket launcher, chaingun, shotgun, plasma
+    levelnum = 8
+    next = map01
+    // berserk, rocket launcher, chaingun, shotgun, plasma
 }
 
 map e1m9 "Scanners" {
