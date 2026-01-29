@@ -8,6 +8,20 @@ episode map01 {
     name = "Doom II"
 }
 
+cluster 1 {
+   flat = "FLAT1"
+   music = "music/circular-circus.mid" 
+   exittext = "You have survived...  Well done!",
+              "I did not expect you to get so far.",
+              "",
+              "Don't worry.  More demons are coming to keep you company...",
+              "",
+              "",
+              "",
+              "Hell is War was created by Jon Landis",
+              "Thanks for playing!"
+}
+
 defaultMap {
     cluster = 1
     sky1 = SKY1, 0
@@ -25,6 +39,7 @@ defaultMap {
 
 map e1m1 "Abdomen Strike" {
     levelnum = 1
+    cluster = 1
     next = e1m2
     music = "music/berzerk-buzz.mid"
     par = 120
@@ -108,6 +123,7 @@ map e1m1 "Abdomen Strike" {
 
 map e1m2 "Waterboard" {
     levelnum = 2
+    cluster = 1
     next = e1m3
     music = "music/mainline.mid"
     // berserk, rocket launcher, shotgun, chaingun secret
@@ -170,6 +186,7 @@ map e1m2 "Waterboard" {
 
 map e1m3 "Black Site" {
     levelnum = 3
+    cluster = 1
     next = e1m4
     music = "music/suspicious-key.mid"
 
@@ -216,6 +233,7 @@ map e1m3 "Black Site" {
 
 map e1m4 "Stress Position" {
     levelnum = 4
+    cluster = 1
     next = e1m5
     music = "music/empty-shell.mid"
     // berserk, rocket launcher, ssg
@@ -275,6 +293,7 @@ map e1m4 "Stress Position" {
 
 map e1m5 "Rendition" {
     levelnum = 5
+    cluster = 1
     next = e1m6
     music = "music/sleet.mid"
     // berserk, ssg, chaingun, plasma
@@ -322,6 +341,7 @@ map e1m5 "Rendition" {
 
 map e1m6 "Collateral Damage" {
     levelnum = 6
+    cluster = 1
     next = e1m7
     secretnext = e1m9
     music = "music/stuck-in-the-nukage.mid"
@@ -396,6 +416,7 @@ map e1m6 "Collateral Damage" {
 
 map e1m7 "Protective Custody" {
     levelnum = 7
+    cluster = 1
     next = e1m8
     // chainsaw, chaingun, ssg, plasma
     // each monster type being eliminated changes some aspect of the map
@@ -427,7 +448,8 @@ map e1m7 "Protective Custody" {
 
 map e1m8 "Shock and Awe" {
     levelnum = 8
-    next = map01
+    cluster = 1
+    next = endtitle
     // berserk, rocket launcher, chaingun, shotgun, plasma
     // BIGDOOR3
     // BLODRIP1
@@ -540,6 +562,7 @@ map e1m8 "Shock and Awe" {
 
 map e1m9 "Scanners" {
     levelnum = 9
+    cluster = 1
     next = e1m7
     // monsters only hitscanners, spider mastermind boss
     // can use any texture used so far
