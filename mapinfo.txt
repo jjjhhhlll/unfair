@@ -401,6 +401,7 @@ map e1m7 "Protective Custody" {
     // each monster type being eliminated changes some aspect of the map
     // strategy to keep demons alive so that "bad things" don't happen (e.g. crushers or lava floor or something like that)
     // cyber(s) and spider(s)
+    music = "music/megaton.mid"
 
     // BRONZE1
     // BRONZE3
@@ -541,4 +542,5 @@ map e1m9 "Scanners" {
     levelnum = 9
     next = e1m7
     // monsters only hitscanners, spider mastermind boss
+    // can use any texture used so far
 }
