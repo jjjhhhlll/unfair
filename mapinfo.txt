@@ -397,12 +397,15 @@ map e1m6 "Collateral Damage" {
 map e1m7 "Protective Custody" {
     levelnum = 7
     next = e1m8
-    // chainsaw, chaingun, shotgun
+    // chainsaw, chaingun, ssg, plasma
+    // each monster type being eliminated changes some aspect of the map
+    // strategy to keep demons alive so that "bad things" don't happen (e.g. crushers or lava floor or something like that)
     // cyber(s) and spider(s)
 
     // BRONZE1
     // BRONZE3
     // BROWN1
+    // BRICK4
     // CEIL5_1
     // DOORTRAK
     // EXITSIGN
@@ -410,6 +413,7 @@ map e1m7 "Protective Custody" {
     // FLAT5_5
     // METAL2
     // RROCK09
+    // RROCK15
     // RROCK19	
     // RROCK20
     // SLIME15
@@ -424,6 +428,113 @@ map e1m8 "Shock and Awe" {
     levelnum = 8
     next = map01
     // berserk, rocket launcher, chaingun, shotgun, plasma
+    // BIGDOOR3
+    // BLODRIP1
+    // BLODRIP2
+    // BLODRIP3
+    // BLODRIP4
+    // BLOOD3
+    // BRICK7
+    // BRONZE2
+    // BROWN1
+    // BROWN144
+    // BROWNGRN
+    // BROWNHUG
+    // CEIL1_3
+    // CEIL3_5
+    // CEIL4_3
+    // CEIL5_2
+    // COMP01
+    // COMPSPAN
+    // COMPSTA1
+    // COMPSTA2
+    // COMPTALL
+    // DOORRED2
+    // DOORSTOP
+    // DOORTRAK
+    // DOORYEL2
+    // EXITDOOR
+    // EXITSTON
+    // F_SKY1
+    // FIREMAG3
+    // FLAT1
+    // FLAT1_1
+    // FLAT1_2
+    // FLAT1_3
+    // FLAT10
+    // FLAT14
+    // FLAT18
+    // FLAT2
+    // FLAT20
+    // FLAT23
+    // FLAT5_4
+    // FLAT5_5
+    // FLOOR0_1
+    // FLOOR0_3
+    // FLOOR0_5
+    // FLOOR0_6
+    // FLOOR0_7
+    // FLOOR1_1
+    // FLOOR1_6
+    // FLOOR1_7
+    // FLOOR4_1
+    // FLOOR4_8
+    // FLOOR5_2
+    // FLOOR5_4
+    // FLOOR6_1
+    // GATE1
+    // GATE2
+    // GATE3
+    // GRAY4
+    // GRAY5
+    // GRAY7
+    // MARBFACE
+    // METAL
+    // METAL4
+    // MIDBARS1
+    // PIPE1
+    // PIPE2
+    // REDWALL
+    // RROCK10
+    // RROCK12
+    // SHAWN2
+    // SKINFACE
+    // SLADWALL
+    // SLIME04
+    // SLIME08
+    // SLIME12
+    // SPACEW3
+    // STARBR2
+    // STARG1
+    // STARG2
+    // STARG3
+    // STARGR1
+    // STARGR2
+    // STARTAN2
+    // STARTAN3
+    // STEP2
+    // STEP5
+    // STEP6
+    // STONE
+    // STONE2
+    // SUPPORT2
+    // SUPPORT3
+    // SW1BLUE
+    // SW1BRN2
+    // SW1EXIT
+    // SW1GARG
+    // SW1GRAY
+    // SW1SATYR
+    // SW1SLAD
+    // SW2GARG
+    // SW2LION
+    // SW2SATYR
+    // SW2SKIN
+    // TANROCK2
+    // TEKGREN2
+    // TEKGREN3
+    // TEKGREN4
+
 }
 
 map e1m9 "Scanners" {
