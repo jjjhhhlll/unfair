@@ -17,4 +17,10 @@ e1m6:
 	../uzdoom -iwad doom2.wad -file . -nomonsters +map e1m6 -skill 4 -nomusic
 
 monsters: 
-	../uzdoom -iwad doom2.wad -file .  #+map e1m6 -skill 4 
+	../uzdoom -iwad doom2.wad -file .  +map e1m6 -skill 4  -nomusic
+
+recorddemo:
+	../uzdoom -iwad doom2.wad -file .  +map e1m1 -skill 1 -record demo.lmp
+
+playdemo:
+	../uzdoom -iwad doom2.wad -file . -playdemo demo.lmp
