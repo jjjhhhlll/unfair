@@ -345,7 +345,8 @@ map e1m6 "Collateral Damage" {
     cluster = 1
     next = e1m7
     secretnext = e1m9
-    music = "music/stuck-in-the-nukage.mid"
+    //music = "music/stuck-in-the-nukage.mid"
+    music = "music/bruxism.mid"
     // start in a hole and move outward to larger spaces
     // chaingun, rocket launcher, ssg, plasma
     // first mancs, cacos, imps, pain elementals
