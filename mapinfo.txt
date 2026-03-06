@@ -17,10 +17,12 @@ cluster 1 {
               "Don't worry.  ",
               "More demons are coming to keep you company...",
               "",
+              "I am still working on the rest of it.",
               "",
+              "Thanks for helping me play test!",
               "",
-              "Hell is War was created by Jon Landis",
-              "Thanks for playing!"
+              "Cheers,",
+              "Jon"
 }
 
 defaultMap {
@@ -41,7 +43,8 @@ defaultMap {
 map e1m1 "Abdomen Strike" {
     levelnum = 1
     cluster = 1
-    next = e1m2
+    //next = e1m2
+    next = e1m6
     music = "music/berzerk-buzz.mid"
     par = 120
     // horseshoe structure
@@ -343,7 +346,8 @@ map e1m5 "Rendition" {
 map e1m6 "Collateral Damage" {
     levelnum = 6
     cluster = 1
-    next = e1m7
+    //next = e1m7
+    next = endtitle
     secretnext = e1m9
     music = "music/stuck-in-the-nukage.mid"
     //music = "music/bruxism.mid"
@@ -452,6 +456,7 @@ map e1m8 "Shock and Awe" {
     levelnum = 8
     cluster = 1
     next = endtitle
+    music = "music/bruxism.mid"
     // berserk, rocket launcher, chaingun, shotgun, plasma
     // BIGDOOR3
     // BLODRIP1
@@ -565,7 +570,8 @@ map e1m8 "Shock and Awe" {
 map e1m9 "Scanners" {
     levelnum = 9
     cluster = 1
-    next = e1m7
+    // next = e1m7
+    next = endtitle
     // monsters only hitscanners, spider mastermind boss
     // can use any texture used so far
 }
