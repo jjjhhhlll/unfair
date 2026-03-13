@@ -2,3 +2,4 @@
 *.backup*
 *.dbs
 *.autosave*
+release/

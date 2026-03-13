@@ -1,3 +1,5 @@
+VERSION=pt1
+
 test: 
 	../uzdoom -iwad doom2.wad -file . $(EXTRA)
 
@@ -18,3 +20,9 @@ e1m6:
 
 monsters: 
 	../uzdoom -iwad doom2.wad -file .  +map e1m6 -skill 3 $(EXTRA)
+
+release:
+	mkdir -p release/hellis-$(VERSION) 
+	zip -r release/hellis-$(VERSION)/hellis.pk3 *.txt maps/*.wad music/*.mid scripts/*.acs 
+	cp readme.txt release/hellis-$(VERSION)/hellis.txt
+	(cd release && zip -r hellis-$(VERSION).zip hellis-$(VERSION))
