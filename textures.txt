@@ -153,4 +153,14 @@ Texture "JJHUG1", 64, 128
 	}
 }
 
+Texture "JJSPCDR1", 64, 128
+{
+	Patch "DOOR15_2", 0, 0
+}
+
+Texture "JJSPCDR2", 64, 128
+{
+	Patch "DOOR15_2", 0, 0
+}
+
 // End of texture definitions

@@ -6,6 +6,9 @@ test:
 e1m1:
 	../uzdoom -iwad doom2.wad -file . -nomonsters +map e1m1 $(EXTRA)
 
+e1m2:
+	../uzdoom -iwad doom2.wad -file . -nomonsters +map e1m2 $(EXTRA)
+
 e1m3:
 	../uzdoom -iwad doom2.wad -file . -nomonsters +map e1m3 $(EXTRA)
 
