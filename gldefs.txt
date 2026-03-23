@@ -1,0 +1,14 @@
+brightmap texture PIPEWAL1
+{
+    map "brightmaps/PIPEWAL1.png"
+}
+
+brightmap texture PIPEWAL2
+{
+    map "brightmaps/PIPEWAL2.png"
+}
+
+brightmap texture TEKBRON1
+{
+    map "brightmaps/TEKBRON1.png"
+}
