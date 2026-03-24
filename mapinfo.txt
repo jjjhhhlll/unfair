@@ -570,6 +570,7 @@ map e1m8 "Shock and Awe" {
 map e1m9 "Scanners" {
     levelnum = 9
     cluster = 1
+    music = "music/cratepusher.mid"
     // next = e1m7
     next = endtitle
     // monsters only hitscanners, spider mastermind boss
