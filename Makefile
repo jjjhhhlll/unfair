@@ -1,4 +1,4 @@
-VERSION=pt1
+VERSION=pt2
 
 test: 
 	../uzdoom -iwad doom2.wad -file . $(EXTRA)
