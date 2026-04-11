@@ -21,8 +21,11 @@ e1m5:
 e1m6:
 	../uzdoom -iwad doom2.wad -file . -nomonsters +map e1m6 -skill 4 $(EXTRA)
 
+e1m7:
+	../uzdoom -iwad doom2.wad -file . -nomonsters +map e1m7 -skill 4 $(EXTRA)
+
 monsters: 
-	../uzdoom -iwad doom2.wad -file .  +map e1m6 -skill 3 $(EXTRA)
+	../uzdoom -iwad doom2.wad -file .  +map e1m7 -skill 3 $(EXTRA)
 
 release:
 	mkdir -p release/hellis-$(VERSION) 
