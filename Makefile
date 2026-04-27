@@ -25,10 +25,10 @@ e1m7:
 	../uzdoom -iwad doom2.wad -file . -nomonsters +map e1m7 -skill 4 $(EXTRA)
 
 monsters: 
-	../uzdoom -iwad doom2.wad -file .  +map e1m7 -skill 3 $(EXTRA)
+	../uzdoom -iwad doom2.wad -file .  +map e1m7 -skill 2 $(EXTRA)
 
 release:
 	mkdir -p release/hellis-$(VERSION) 
-	zip -r release/hellis-$(VERSION)/hellis.pk3 *.txt maps/*.wad music/*.mid scripts/*.acs graphics/*.png brightmaps/*.png
+	zip -r release/hellis-$(VERSION)/hellis.pk3 *.txt maps/*.wad music/*.mid scripts/*.acs graphics/*.png brightmaps/*.png sounds/*.wav
 	cp readme.txt release/hellis-$(VERSION)/hellis.txt
 	(cd release && zip -r hellis-$(VERSION).zip hellis-$(VERSION))
