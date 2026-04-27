@@ -29,6 +29,8 @@ monsters:
 
 release:
 	mkdir -p release/hellis-$(VERSION) 
-	zip -r release/hellis-$(VERSION)/hellis.pk3 *.txt maps/*.wad music/*.mid scripts/*.acs graphics/*.png brightmaps/*.png sounds/*.wav
+	zip -r release/hellis-$(VERSION)/hellis.pk3 *.txt maps/*.wad music/*.mid scripts/*.acs graphics/*.png brightmaps/*.png sounds/*.ogg
 	cp readme.txt release/hellis-$(VERSION)/hellis.txt
 	(cd release && zip -r hellis-$(VERSION).zip hellis-$(VERSION))
+
+.PHONY: release
