@@ -24,6 +24,9 @@ e1m6:
 e1m7:
 	../uzdoom -iwad doom2.wad -file . -nomonsters +map e1m7 -skill 4 $(EXTRA)
 
+e1m8:
+	../uzdoom -iwad doom2.wad -file . -nomonsters +map e1m8 -skill 4 $(EXTRA)
+
 monsters: 
 	../uzdoom -iwad doom2.wad -file .  +map e1m7 -skill 2 $(EXTRA)
 
