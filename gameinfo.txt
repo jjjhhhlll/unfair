@@ -1,4 +1,4 @@
 iwad = "DOOM2.WAD"
 startuptype = "Hexen"
-startupsong = "music/leven.mid"
+startupsong = "music/loading-ambiance.mid"
 startuptitle = "DOOM 2: Hell is War"
