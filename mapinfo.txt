@@ -27,10 +27,11 @@ cluster 1 {
 
 defaultMap {
     cluster = 1
+//    sky1 = JJSKY1, 0
     sky1 = SKY1, 0
     noJump
     noCrouch
-    noFreelook
+//    noFreelook
     checkSwitchRange
     resetHealth
     resetInventory
