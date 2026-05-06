@@ -8,13 +8,3 @@ brightmap texture PIPEWAL2
     map "brightmaps/PIPEWAL2.png"
 }
 
-
-skybox Sky1 fliptop
-{
-  01_FR
-  01_FR
-  01_FR
-  01_FR
-  01_UP
-  01_UP
-}

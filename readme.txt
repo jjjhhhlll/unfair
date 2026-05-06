@@ -99,11 +99,6 @@ May Not Run With        : portals do not display properly in software
                           renderer
 Tested With             : uzdoom 4.14.3, gzdoom 4.14.0
 
-* Credits *
-
-"Doom skyboxes for GZDoom" by Ezepov: http://ezepov.com/doom/SB_DooM.zip
-
-
 * Copyright / Permissions *
 
 This work is licensed under the Creative Commons Attribution-NonCommercial
