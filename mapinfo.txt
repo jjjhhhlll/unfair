@@ -46,7 +46,8 @@ map e1m1 "Abdomen Strike" {
     cluster = 1
     //next = e1m2
     next = e1m6
-    music = "music/berzerk-buzz.mid"
+    //music = "music/berzerk-buzz.mid"
+    music = "music/2026-05-22.xm"
     par = 120
     // horseshoe structure
     // berserk, rocket launcher, chaingun secret
