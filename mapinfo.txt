@@ -351,7 +351,8 @@ map e1m6 "Collateral Damage" {
     //next = e1m7
     next = endtitle
     secretnext = e1m9
-    music = "music/stuck-in-the-nukage.mid"
+    //music = "music/stuck-in-the-nukage.mid"
+    music = "music/2026-06-09.xm"
     //music = "music/bruxism.mid"
     // start in a hole and move outward to larger spaces
     // chaingun, rocket launcher, ssg, plasma
