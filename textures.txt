@@ -179,4 +179,32 @@ Texture "JJGRAY5", 128, 64
 	}
 }
 
+Texture "JJSTONE", 128, 128
+{
+	Patch "WALL01_1", 0, 0
+	Patch "WALL01_2", 16, 0
+	Patch "WALL01_3", 32, 0
+	Patch "WALL01_4", 48, 0
+	Patch "WALL01_5", 64, 0
+	Patch "WALL01_6", 80, 0
+	Patch "WALL01_7", 96, 0
+	Patch "WALL01_8", 112, 0
+	Patch "WALL01_1", 0, 72
+	Patch "WALL01_2", 16, 72
+	Patch "WALL01_3", 32, 72
+	Patch "WALL01_4", 48, 72
+	Patch "WALL01_5", 64, 72
+	Patch "WALL01_6", 80, 72
+	Patch "WALL01_7", 96, 72
+	Patch "WALL01_8", 112, 72
+	Patch "W33_7", 124, 0
+	Patch "W33_7", 124, 72
+	Patch "W33_7", -60, 0
+	Patch "W33_8", 64, 64
+	Patch "W33_8", 64, 120
+	Patch "W33_8", 0, 64
+	Patch "W33_7", -60, 72
+	Patch "W33_8", 0, 120
+}
+
 // End of texture definitions
