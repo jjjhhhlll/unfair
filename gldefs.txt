@@ -8,3 +8,8 @@ brightmap texture PIPEWAL2
     map "brightmaps/PIPEWAL2.png"
 }
 
+HardwareShader PostProcess Scene
+{
+    shader "shaders/colorize.fp" 330
+    enabled
+}
