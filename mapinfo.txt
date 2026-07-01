@@ -1,3 +1,7 @@
+gameinfo {
+    AddEventHandlers = "ShaderTimer"
+}
+
 clearEpisodes
 
 episode e1m1 {
