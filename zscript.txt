@@ -1,10 +1,19 @@
 version "4.0"
 
-class ShaderTimer : EventHandler
-{
-    override void RenderOverlay(RenderEvent e) 
-    {
+class ShaderTimer : EventHandler {
+    override void RenderOverlay(RenderEvent e) {
         float timer = (gametic + e.FracTic) * 1 / 35;    
         Shader.SetUniform1f(players[consoleplayer], "colorize", "timer", timer);
+    }
+}
+
+class ShaderControl: Actor {
+    static void enableShader(Actor a, bool newValue) {
+       if (a && a.player) {
+            Console.PrintF("player actor!");
+            Shader.SetEnabled(a.player, "colorize", newValue);
+       } else {
+            Console.PrintF("not a player actor.");
+       }
     }
 }

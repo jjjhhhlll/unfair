@@ -13,5 +13,4 @@ HardwareShader PostProcess Scene
     name "colorize"
     shader "shaders/colorize.glsl" 330
     Uniform float timer = 1.0
-    enabled
 }
