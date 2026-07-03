@@ -2,18 +2,29 @@ version "4.0"
 
 class ShaderTimer : EventHandler {
     override void RenderOverlay(RenderEvent e) {
-        float timer = (gametic + e.FracTic) * 1 / 35;    
-        Shader.SetUniform1f(players[consoleplayer], "colorize", "timer", timer);
+		PlayerInfo p = players[consoleplayer];
+        if (p) {
+            float timer = (gametic + e.FracTic) * 1 / 35;    
+
+            float intensity = CVar.GetCVar("jj_color_intensity", p).GetFloat();
+            float opacity = CVar.GetCVar("jj_color_opacity", p).GetFloat();
+            float contrast = CVar.GetCVar("jj_color_contrast", p).GetFloat();
+            bool enabled = CVar.GetCVar("jj_color_enabled", p).getBool();
+
+            Shader.SetEnabled(p, "colorize", enabled);
+
+            Shader.SetUniform1f(p, "colorize", "timer", timer);
+            Shader.SetUniform1f(p, "colorize", "uIntensity", intensity);
+            Shader.SetUniform1f(p, "colorize", "uOpacity", opacity);
+            Shader.SetUniform1f(p, "colorize", "uContrast", contrast);
+        }
     }
 }
 
 class ShaderControl: Actor {
     static void enableShader(Actor a, bool newValue) {
        if (a && a.player) {
-            Console.PrintF("player actor!");
             Shader.SetEnabled(a.player, "colorize", newValue);
-       } else {
-            Console.PrintF("not a player actor.");
-       }
+       } 
     }
 }

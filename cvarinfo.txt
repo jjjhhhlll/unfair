@@ -1,0 +1,4 @@
+user bool jj_color_enabled = true;
+user noarchive float jj_color_intensity = 20.0;
+user noarchive float jj_color_opacity = 0.4;
+user noarchive float jj_color_contrast = 0.35;
