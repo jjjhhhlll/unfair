@@ -8,13 +8,13 @@ brightmap texture PIPEWAL2
     map "brightmaps/PIPEWAL2.png"
 }
 
-HardwareShader PostProcess Scene
+HardwareShader PostProcess Screen
 {
     name "colorize"
     shader "shaders/colorize.glsl" 330
     Uniform float timer = 0.0
-    Uniform float uIntensity = 6.0
-    Uniform float uOpacity = 0.6
-    Uniform float uContrast = 0.45
+    Uniform float uIntensity = 20.0
+    Uniform float uOpacity = 0.55
+    Uniform float uContrast = 0.35
     enabled
 }
