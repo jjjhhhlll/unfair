@@ -8,6 +8,11 @@ brightmap texture PIPEWAL2
     map "brightmaps/PIPEWAL2.png"
 }
 
+brightmap texture FLAT2
+{
+    map "brightmaps/FLAT2.png"
+}
+
 HardwareShader PostProcess Screen
 {
     name "colorize"
