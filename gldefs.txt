@@ -12,9 +12,11 @@ HardwareShader PostProcess Screen
 {
     name "colorize"
     shader "shaders/colorize.glsl" 330
-    Uniform float timer = 0.0
-    Uniform float uIntensity = 20.0
-    Uniform float uOpacity = 0.55
-    Uniform float uContrast = 0.35
+    Uniform float timer 
+    Uniform float uIntensity 
+    Uniform float uOpacity 
+    Uniform float uContrast 
+    Uniform float uTemperature 
+    Uniform float uTemperatureStrength 
     enabled
 }

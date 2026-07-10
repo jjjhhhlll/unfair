@@ -9,6 +9,8 @@ class ShaderTimer : EventHandler {
             float intensity = CVar.GetCVar("jj_color_intensity", p).GetFloat();
             float opacity = CVar.GetCVar("jj_color_opacity", p).GetFloat();
             float contrast = CVar.GetCVar("jj_color_contrast", p).GetFloat();
+            float temp = CVar.GetCVar("jj_color_temp", p).GetFloat();
+            float tempStr = CVar.GetCVar("jj_color_temp_str", p).GetFloat();
             bool enabled = CVar.GetCVar("jj_color_enabled", p).getBool();
 
             Shader.SetEnabled(p, "colorize", enabled);
@@ -17,6 +19,8 @@ class ShaderTimer : EventHandler {
             Shader.SetUniform1f(p, "colorize", "uIntensity", intensity);
             Shader.SetUniform1f(p, "colorize", "uOpacity", opacity);
             Shader.SetUniform1f(p, "colorize", "uContrast", contrast);
+            Shader.SetUniform1f(p, "colorize", "uTemperature", temp);
+            Shader.SetUniform1f(p, "colorize", "uTemperatureStrength", tempStr);
         }
     }
 }

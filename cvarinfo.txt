@@ -2,3 +2,5 @@ user bool jj_color_enabled = true;
 user noarchive float jj_color_intensity = 20.0;
 user noarchive float jj_color_opacity = 0.55;
 user noarchive float jj_color_contrast = 0.35;
+user noarchive float jj_color_temp = 4000.0;
+user noarchive float jj_color_temp_str = 0.7;
