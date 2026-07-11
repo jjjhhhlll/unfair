@@ -18,6 +18,11 @@ brightmap texture GRNLITE1 {
     map "brightmaps/GRNLITE1.png"
 }
 
+brightmap texture TLITE6_4 {
+    map "brightmaps/TLITE6_4.png"
+}
+
+
 HardwareShader PostProcess Screen {
     name "colorize"
     shader "shaders/colorize.glsl" 330
