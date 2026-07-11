@@ -22,6 +22,10 @@ brightmap texture TLITE6_4 {
     map "brightmaps/TLITE6_4.png"
 }
 
+brightmap texture SW2BRNGN {
+    map "brightmaps/SW2BRNGN.png"
+}
+
 
 HardwareShader PostProcess Screen {
     name "colorize"
