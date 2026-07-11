@@ -26,6 +26,13 @@ brightmap texture SW2BRNGN {
     map "brightmaps/SW2BRNGN.png"
 }
 
+brightmap texture LITE5 {
+    map "brightmaps/LITE5.png"
+}
+
+brightmap texture TEKGREN5 {
+    map "brightmaps/TEKGREN5.png"
+}
 
 HardwareShader PostProcess Screen {
     name "colorize"
