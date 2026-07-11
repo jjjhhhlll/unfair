@@ -14,6 +14,10 @@ brightmap texture CEIL1_2 {
     map "brightmaps/CEIL1_2.png"
 }
 
+brightmap texture CEIL1_3 {
+    map "brightmaps/CEIL1_2.png"
+}
+
 brightmap texture GRNLITE1 {
     map "brightmaps/GRNLITE1.png"
 }
@@ -32,6 +36,18 @@ brightmap texture LITE5 {
 
 brightmap texture TEKGREN5 {
     map "brightmaps/TEKGREN5.png"
+}
+
+brightmap texture SW2COMP {
+    map "brightmaps/SW2COMP.png"
+}
+
+brightmap texture SW1BRCOM {
+    map "brightmaps/SW1BRCOM.png"
+}
+
+brightmap texture SW2BRCOM {
+    map "brightmaps/SW2BRCOM.png"
 }
 
 HardwareShader PostProcess Screen {
