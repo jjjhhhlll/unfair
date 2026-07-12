@@ -1,5 +1,6 @@
 version "4.0"
 
+// Sends timer and other uniforms into the "colorize" shader
 class ShaderTimer : EventHandler {
     override void RenderOverlay(RenderEvent e) {
 		PlayerInfo p = players[consoleplayer];
@@ -30,5 +31,53 @@ class ShaderControl: Actor {
        if (a && a.player) {
             Shader.SetEnabled(a.player, "colorize", newValue);
        } 
+    }
+}
+
+// Gradually changes color temperature when the player steps on/off the lava texture
+class LavaStepHandler : EventHandler {
+    int oldState;
+    float tempGoal;
+
+    override void WorldTick() {
+        int newState;
+
+        PlayerInfo p = players[consoleplayer];
+        PlayerPawn player = p.mo;
+        if (!player) {
+            return;
+        }
+
+        Sector currentSector = player.CurSector;
+        String flatName = TexMan.GetName(currentSector.GetTexture(Sector.floor));
+
+        if (flatName == "LAVA1") {
+            newState = 1;
+        } else {
+            newState = 2;
+        }
+
+        if (oldState != newState) {
+            if (newState == 1) {
+                // entered lava
+                tempGoal = 3000.0;
+            } else {
+                // exited lava
+                tempGoal = 4000.0;
+            }
+        }
+
+        CVar temperature = CVar.GetCVar("jj_color_temp", p);
+        if (temperature) {
+            float curTemp = temperature.GetFloat();
+            if (curTemp != tempGoal) {
+                if (curTemp > tempGoal) {
+                    temperature.SetFloat(curTemp - 10.0);
+                } else {
+                    temperature.SetFloat(curTemp + 10.0);
+                }
+            }
+        }
+        oldState = newState;
     }
 }
