@@ -50,6 +50,22 @@ brightmap texture SW2BRCOM {
     map "brightmaps/SW2BRCOM.png"
 }
 
+brightmap texture LAVA1 {
+    map "brightmaps/LAVA1.png"
+}
+
+brightmap texture LAVA2 {
+    map "brightmaps/LAVA2.png"
+}
+
+brightmap texture LAVA3 {
+    map "brightmaps/LAVA3.png"
+}
+
+brightmap texture LAVA4 {
+    map "brightmaps/LAVA4.png"
+}
+
 HardwareShader PostProcess Screen {
     name "colorize"
     shader "shaders/colorize.glsl" 330
