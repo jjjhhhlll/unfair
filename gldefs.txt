@@ -66,6 +66,30 @@ brightmap texture LAVA4 {
     map "brightmaps/LAVA4.png"
 }
 
+brightmap texture METAL7 {
+    map "brightmaps/METAL7.png"
+}
+
+brightmap texture SW1MET2 {
+    map "brightmaps/SW1MET2.png"
+}
+
+brightmap texture SW2MET2 {
+    map "brightmaps/SW2MET2.png"
+}
+
+brightmap texture TEKLITE {
+    map "brightmaps/TEKLITE.png"
+}
+
+brightmap texture SPCDOOR1 {
+    map "brightmaps/SPCDOOR1.png"
+}
+
+brightmap texture SPCDOOR2 {
+    map "brightmaps/SPCDOOR2.png"
+}
+
 HardwareShader PostProcess Screen {
     name "colorize"
     shader "shaders/colorize.glsl" 330
