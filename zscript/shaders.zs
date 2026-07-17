@@ -1,0 +1,81 @@
+// Sends timer and other uniforms into the "colorize" shader
+class ShaderTimer : EventHandler {
+    override void RenderOverlay(RenderEvent e) {
+		PlayerInfo p = players[consoleplayer];
+        if (p) {
+            float timer = (gametic + e.FracTic) * 1 / 35;    
+
+            float intensity = CVar.GetCVar("jj_color_intensity", p).GetFloat();
+            float opacity = CVar.GetCVar("jj_color_opacity", p).GetFloat();
+            float contrast = CVar.GetCVar("jj_color_contrast", p).GetFloat();
+            float temp = CVar.GetCVar("jj_color_temp", p).GetFloat();
+            float tempStr = CVar.GetCVar("jj_color_temp_str", p).GetFloat();
+            bool enabled = CVar.GetCVar("jj_color_enabled", p).getBool();
+
+            Shader.SetEnabled(p, "colorize", enabled);
+
+            Shader.SetUniform1f(p, "colorize", "timer", timer);
+            Shader.SetUniform1f(p, "colorize", "uIntensity", intensity);
+            Shader.SetUniform1f(p, "colorize", "uOpacity", opacity);
+            Shader.SetUniform1f(p, "colorize", "uContrast", contrast);
+            Shader.SetUniform1f(p, "colorize", "uTemperature", temp);
+            Shader.SetUniform1f(p, "colorize", "uTemperatureStrength", tempStr);
+        }
+    }
+}
+
+class ShaderControl: Actor {
+    static void enableShader(Actor a, bool newValue) {
+       if (a && a.player) {
+            Shader.SetEnabled(a.player, "colorize", newValue);
+       } 
+    }
+}
+
+// Gradually changes color temperature when the player steps on/off the lava texture
+class LavaStepHandler : EventHandler {
+    int oldState;
+    float tempGoal;
+
+    override void WorldTick() {
+        int newState;
+
+        PlayerInfo p = players[consoleplayer];
+        PlayerPawn player = p.mo;
+        if (!player) {
+            return;
+        }
+
+        Sector currentSector = player.CurSector;
+        String flatName = TexMan.GetName(currentSector.GetTexture(Sector.floor));
+
+        if (flatName == "LAVA1") {
+            newState = 1;
+        } else {
+            newState = 2;
+        }
+
+        if (oldState != newState) {
+            if (newState == 1) {
+                // entered lava
+                tempGoal = 3000.0;
+            } else {
+                // exited lava
+                tempGoal = 4000.0;
+            }
+        }
+
+        CVar temperature = CVar.GetCVar("jj_color_temp", p);
+        if (temperature) {
+            float curTemp = temperature.GetFloat();
+            if (curTemp != tempGoal) {
+                if (curTemp > tempGoal) {
+                    temperature.SetFloat(curTemp - 10.0);
+                } else {
+                    temperature.SetFloat(curTemp + 10.0);
+                }
+            }
+        }
+        oldState = newState;
+    }
+}
