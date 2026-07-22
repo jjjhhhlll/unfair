@@ -90,6 +90,26 @@ brightmap texture SPCDOOR2 {
     map "brightmaps/SPCDOOR2.png"
 }
 
+brightmap texture SW1COMM {
+    map "brightmaps/SW1COMM.png"
+}
+
+brightmap texture SW2COMM {
+    map "brightmaps/SW2COMM.png"
+}
+
+brightmap texture GATE2 {
+    map "brightmaps/GATE2.png"
+}
+
+brightmap texture GATE3 {
+    map "brightmaps/GATE3.png"
+}
+
+brightmap texture TEKBRON2 {
+    map "brightmaps/TEKBRON2.png"
+}
+
 HardwareShader PostProcess Screen {
     name "colorize"
     shader "shaders/colorize.glsl" 330

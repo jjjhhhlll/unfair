@@ -35,7 +35,7 @@ Description             : Hell is War is an episode (8 maps + 1 secret map)
                           Maps:
                           
                           e1m1: Abdomen Strike (textures from "Entryway")
-                          (music: "Berzerk Buzz") -- ready for playtesting
+                          (music: "Pressure King") -- ready for playtesting
                           
                           e1m2: Waterboard (textures from "Underhalls")
                           (music: "Mainline")
@@ -50,7 +50,7 @@ Description             : Hell is War is an episode (8 maps + 1 secret map)
                            (music: "Sleet")
                           
                           e1m6: Collateral Damage (textures from "The
-                          Crusher") (music: "Stuck in the Nukage") -- ready
+                          Crusher") (music: "In the Sludge") -- ready
                           for playtesting
                           
                           e1m7: Protective Custody (textures from "Dead
@@ -94,7 +94,7 @@ Difficulty Settings     : Yes
 
 Base                    : New from scratch
 Build Time              : Off and on since 2017
-Editor(s) used          : Ultimate Doom Builder, GZDoomBuilder, Slade3, rosegarden
+Editor(s) used          : Ultimate Doom Builder, GZDoomBuilder, Slade3, rosegarden, SuperCollider, milkytracker, gimp
 May Not Run With        : portals do not display properly in software
                           renderer
 Tested With             : uzdoom 4.14.3, gzdoom 4.14.0
