@@ -207,4 +207,20 @@ Texture "JJSTONE", 128, 128
 	Patch "W33_8", 0, 120
 }
 
+Texture "JJSW1CMP", 64, 128
+{
+	Patch "COMP03_4", 0, 64
+	Patch "COMP04_5", 0, 0
+	Patch "COMP03_4", 32, 64
+	Patch "SW4S0", 20, 80
+}
+
+Texture "JJSW2CMP", 64, 128
+{
+	Patch "COMP03_4", 0, 64
+	Patch "COMP04_5", 0, 0
+	Patch "COMP03_4", 32, 64
+	Patch "SW4S1", 20, 80
+}
+
 // End of texture definitions

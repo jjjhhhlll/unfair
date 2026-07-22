@@ -1,1 +1,3 @@
 switch doom JJSPCDR1 on sound doors/dr2_open pic JJSPCDR2 tics 0 off sound doors/dr2_clos pic JJSPCDR1 tics 0
+
+switch doom JJSW1CMP on pic JJSW2CMP tics 0

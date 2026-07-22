@@ -110,6 +110,14 @@ brightmap texture TEKBRON2 {
     map "brightmaps/TEKBRON2.png"
 }
 
+brightmap texture JJSW1CMP {
+    map "brightmaps/JJSW1CMP.png"
+}
+
+brightmap texture JJSW2CMP {
+    map "brightmaps/JJSW2CMP.png"
+}
+
 HardwareShader PostProcess Screen {
     name "colorize"
     shader "shaders/colorize.glsl" 330
