@@ -464,7 +464,8 @@ map e1m8 "Shock and Awe" {
     cluster = 1
     next = endtitle
     //music = "music/bruxism.mid"
-    music = "music/2026-06-04.xm"
+    //music = "music/2026-06-04.xm"
+    music = "music/2026-07-08-vol-reduced.mp3"
     // berserk, rocket launcher, chaingun, shotgun, plasma
     // BIGDOOR3
     // BLODRIP1
