@@ -58,10 +58,10 @@ class LavaStepHandler : EventHandler {
         if (oldState != newState) {
             if (newState == 1) {
                 // entered lava
-                tempGoal = 3000.0;
+                tempGoal = 2000.0;
             } else {
                 // exited lava
-                tempGoal = 4000.0;
+                tempGoal = 3000.0;
             }
         }
 

@@ -39,7 +39,7 @@ void main() {
     mixRgb += ((1.0 - A2) * base.rgb);
 
     // add pulsating effect
-    mixRgb *= 1.25 + (L * 0.13) * sin(0.9 * timer);
+    mixRgb *= 1.15 + (L * 0.13) * sin(0.9 * timer);
 
     vec3 outColor = mix(mixRgb, mixRgb * colorTemperatureToRGB(uTemperature), uTemperatureStrength);
 
