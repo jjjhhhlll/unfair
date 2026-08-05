@@ -118,6 +118,14 @@ brightmap texture JJSW2CMP {
     map "brightmaps/JJSW2CMP.png"
 }
 
+brightmap texture COMPSTA1 {
+    map "brightmaps/COMPSTA1.png"
+}
+
+brightmap texture SPACEW3 {
+    map "brightmaps/SPACEW3.png"
+}
+
 HardwareShader PostProcess Screen {
     name "colorize"
     shader "shaders/colorize.glsl" 330
