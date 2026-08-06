@@ -34,9 +34,8 @@ void main() {
     vec3 result2 =  1.0 - (2.0 * (1.0 - clamp(blend, 0.0, 0.742)) * (1.0 - base.rgb));
     vec3 newColor = mix(result1, result2, L);
 
-    float A2 = uOpacity * base.a;
-    vec3 mixRgb = A2 * newColor.rgb;
-    mixRgb += ((1.0 - A2) * base.rgb);
+    vec3 mixRgb = uOpacity * newColor.rgb;
+    mixRgb += ((1.0 - uOpacity) * base.rgb);
 
     // add pulsating effect
     mixRgb *= 1.15 + (L * 0.13) * sin(0.9 * timer);
