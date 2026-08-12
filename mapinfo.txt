@@ -37,8 +37,8 @@ defaultMap {
     noCrouch
 //    noFreelook
     checkSwitchRange
-    resetHealth
-    resetInventory
+    //resetHealth
+    //resetInventory
     usePlayerStartZ
     // gzdoom
     lightmode = 8
@@ -137,6 +137,7 @@ map e1m2 "Waterboard" {
     // berserk, rocket launcher, shotgun, chaingun secret
     // imp, demon, rev, lost soul
     // first cacodemons
+    // first hell knights
     // ledge-maze style
     // red key unlocks a switch
     // blue key crossover
