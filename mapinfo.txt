@@ -133,7 +133,8 @@ map e1m2 "Waterboard" {
     levelnum = 2
     cluster = 1
     next = e1m3
-    music = "music/mainline.mid"
+    //music = "music/mainline.mid"
+    music = "music/2026-08-19-mainline-fb.mp3"
     // berserk, rocket launcher, shotgun, chaingun secret
     // imp, demon, rev, lost soul
     // first cacodemons
