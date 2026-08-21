@@ -25,12 +25,9 @@ Description             : Hell is War is an episode (8 maps + 1 secret map)
                           (doom2.wad), without freelook, jumping or
                           crouching.  It uses uzdoom features such as 3d
                           floors, scripting and portals.  The hardware
-                          renderer is recommended.
+                          renderer is required.
                           
-                          All music is midi composed by me for fluidsynth
-                          with the soundfont bundled with uzdoom. Special
-                          thanks to @scwiba for getting me behind a sequencer
-                          again.  (I forgot how fun it can be.)
+                          All music is composed by me.
                           
                           Maps:
                           
