@@ -122,6 +122,10 @@ brightmap texture COMPSTA1 {
     map "brightmaps/COMPSTA1.png"
 }
 
+brightmap texture COMPSTA2 {
+    map "brightmaps/COMPSTA2.png"
+}
+
 brightmap texture SPACEW3 {
     map "brightmaps/SPACEW3.png"
 }
