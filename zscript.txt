@@ -2,3 +2,4 @@ version "4.0"
 
 #include "zscript/shaders.zs"
 #include "zscript/rev.zs"
+#include "zscript/armor.zs"

@@ -585,3 +585,8 @@ map e1m9 "Scanners" {
     // monsters only hitscanners, spider mastermind boss
     // can use any texture used so far
 }
+
+// adding 22,000 to standard numbers as convention for my customization
+DoomEdNums {
+    22219 = SecretBlueArmor
+}
