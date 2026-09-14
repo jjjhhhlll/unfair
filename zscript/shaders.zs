@@ -51,6 +51,8 @@ class LavaStepHandler : EventHandler {
 
         if (flatName == "LAVA1") {
             newState = 1;
+        } else if (flatName == "FWATER1") {
+            newState = 3;
         } else {
             newState = 2;
         }
@@ -59,6 +61,11 @@ class LavaStepHandler : EventHandler {
             if (newState == 1) {
                 // entered lava
                 tempGoal = 2000.0;
+
+            } else if (newState == 3) {
+                // entered cold water
+                tempGoal = 4100.0;
+
             } else {
                 // exited lava
                 tempGoal = 3000.0;
