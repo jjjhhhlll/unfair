@@ -30,6 +30,9 @@ e1m8:
 monsters: 
 	../uzdoom -iwad doom2.wad -file $(PWD)  +map e1m2 -skill 2 $(EXTRA)
 
+secret: 
+	../uzdoom -iwad doom2.wad -file $(PWD)  +map e1m9 -skill 4 $(EXTRA)
+
 release:
 	mkdir -p release/hellis-$(VERSION) 
 	zip -r release/hellis-$(VERSION)/hellis.pk3 *.txt maps/*.wad music/*.mid music/*.xm scripts/*.acs graphics/*.png brightmaps/*.png sounds/*.ogg shaders/*.glsl zscript/*
