@@ -27,6 +27,10 @@ e1m7:
 e1m8:
 	../uzdoom -iwad doom2.wad -file $(PWD) -nomonsters +map e1m8 -skill 4 $(EXTRA)
 
+e1m9:
+	../uzdoom -iwad doom2.wad -file $(PWD) -nomonsters +map e1m9 -skill 4 $(EXTRA)
+
+
 monsters: 
 	../uzdoom -iwad doom2.wad -file $(PWD)  +map e1m2 -skill 2 $(EXTRA)
 
