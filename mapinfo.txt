@@ -1,5 +1,5 @@
 gameinfo {
-    AddEventHandlers = "ShaderTimer","LavaStepHandler"
+    AddEventHandlers = "ShaderTimer","LavaStepHandler","SkullKeyUiHandler"
 }
 
 clearEpisodes
@@ -589,4 +589,5 @@ map e1m9 "Scanners" {
 // adding 22,000 to standard numbers as convention for my customization
 DoomEdNums {
     22219 = SecretBlueArmor
+    22239 = RevSkullKey
 }
