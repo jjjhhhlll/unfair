@@ -580,8 +580,8 @@ map e1m9 "Scanners" {
     levelnum = 9
     cluster = 1
     music = "music/cratepusher.mid"
-    // next = e1m7
-    next = endtitle
+    next = e1m7
+    // next = endtitle
     // monsters only hitscanners, spider mastermind boss
     // can use any texture used so far
 }
