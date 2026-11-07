@@ -5,6 +5,7 @@ class RevSkullKey : Inventory {
 		Tag "$TAG_YELLOWSKULL";
         Inventory.MaxAmount 0x7fffffff;
         Inventory.Amount 1;
+        Species "YellowSkull";
     }
     States {
         Spawn:
@@ -21,7 +22,7 @@ class SkullKeyUiHandler: EventHandler {
         if (skulls > 0) {
             //Inventory skullInv = p.FindInventory("Coin");
             //statusbar.DrawInventoryIcon(skullInv, (0, 0), statusbar.DI_SCREEN_RIGHT_BOTTOM | statusbar.DI_ITEM_RIGHT_BOTTOM);
-            Screen.DrawText(smallfont, Font.CR_RED, 4, 4, String.Format("Skulls %d", skulls));
+            Screen.DrawText(confont, Font.CR_RED, 4, 32, String.Format("Skulls %d", skulls));
         }
     }
 }
