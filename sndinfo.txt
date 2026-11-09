@@ -1,1 +1,2 @@
 weapons/plasmaf = "sounds/dsplasma-minus-4db.ogg"
+switch/crate = "none"

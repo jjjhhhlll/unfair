@@ -223,4 +223,52 @@ Texture "JJSW2CMP", 64, 128
 	Patch "SW4S1", 20, 80
 }
 
+Texture "JJSW1CRA", 128, 128
+{
+	Patch "BCRATEL1", 0, 64
+	Patch "BCRATEM1", 40, 64
+	Patch "BCRATEM1", 32, 64
+	Patch "BCRATEM1", 48, 64
+	Patch "BCRATEM1", 56, 64
+	Patch "BCRATER1", 96, 64
+	Patch "BCRATEM1", 88, 64
+	Patch "BCRATEM1", 80, 64
+	Patch "BCRATEM1", 72, 64
+	Patch "BCRATEM1", 64, 64
+	Patch "GCRATEL1", 0, 0
+	Patch "GCRATER1", 96, 0
+	Patch "GCRATEM1", 48, 0
+	Patch "GCRATEM1", 40, 0
+	Patch "GCRATEM1", 32, 0
+	Patch "GCRATEM1", 72, 0
+	Patch "GCRATEM1", 64, 0
+	Patch "GCRATEM1", 56, 0
+	Patch "GCRATEM1", 80, 0
+	Patch "GCRATEM1", 88, 0
+}
+
+Texture "JJSW2CRA", 128, 128
+{
+	Patch "BCRATEL1", 0, 64
+	Patch "BCRATEM1", 40, 64
+	Patch "BCRATEM1", 32, 64
+	Patch "BCRATEM1", 48, 64
+	Patch "BCRATEM1", 56, 64
+	Patch "BCRATER1", 96, 64
+	Patch "BCRATEM1", 88, 64
+	Patch "BCRATEM1", 80, 64
+	Patch "BCRATEM1", 72, 64
+	Patch "BCRATEM1", 64, 64
+	Patch "GCRATEL1", 0, 0
+	Patch "GCRATER1", 96, 0
+	Patch "GCRATEM1", 48, 0
+	Patch "GCRATEM1", 40, 0
+	Patch "GCRATEM1", 32, 0
+	Patch "GCRATEM1", 72, 0
+	Patch "GCRATEM1", 64, 0
+	Patch "GCRATEM1", 56, 0
+	Patch "GCRATEM1", 80, 0
+	Patch "GCRATEM1", 88, 0
+}
+
 // End of texture definitions
